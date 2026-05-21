@@ -1,0 +1,1428 @@
+Using pre-set license
+Built from '2022.3/china_unity/release' branch; Version is '2022.3.62f3c1 (1623fc0bbb97) revision 1451004'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.26200) 64bit CoreCountrySpecific' Language: 'zh' Physical Memory: 32559 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+D:\unity\2022.3.62f3c1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker11
+-projectPath
+E:/My project (4)
+-logFile
+Logs/AssetImportWorker11.log
+-srvPort
+64138
+Successfully changed project path to: E:/My project (4)
+E:/My project (4)
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [65524]  Target information:
+
+Player connection [65524]  * "[IP] 172.15.0.87 [Port] 0 [Flags] 2 [Guid] 3849263656 [EditorId] 3849263656 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-G9B8N5RU) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [65524] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [65524] Host joined alternative multi-casting on [225.0.0.222:34997]...
+Input System module state changed to: Initialized.
+[PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+Refreshing native plugins compatible for Editor in 6.77 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.62f3c1 (1623fc0bbb97)
+[Subsystems] Discovering subsystems at path D:/unity/2022.3.62f3c1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path E:/My project (4)/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 4070 Laptop GPU (ID=0x2860)
+    Vendor:   NVIDIA
+    VRAM:     7948 MB
+    Driver:   32.0.15.6094
+Initialize mono
+Mono path[0] = 'D:/unity/2022.3.62f3c1/Editor/Data/Managed'
+Mono path[1] = 'D:/unity/2022.3.62f3c1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'D:/unity/2022.3.62f3c1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56336
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: D:/unity/2022.3.62f3c1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.001823 seconds.
+- Loaded All Assemblies, in  0.206 seconds
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.158 seconds
+Domain Reload Profiling: 363ms
+	BeginReloadAssembly (71ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (0ms)
+	RebuildCommonClasses (20ms)
+	RebuildNativeTypeToScriptingClass (6ms)
+	initialDomainReloadingComplete (29ms)
+	LoadAllAssembliesAndSetupDomain (80ms)
+		LoadAssemblies (70ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (79ms)
+			TypeCache.Refresh (78ms)
+				TypeCache.ScanAssembly (70ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (158ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (131ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (5ms)
+			SetLoadedEditorAssemblies (5ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (1ms)
+			ProcessInitializeOnLoadAttributes (91ms)
+			ProcessInitializeOnLoadMethodAttributes (30ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.425 seconds
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.459 seconds
+Domain Reload Profiling: 885ms
+	BeginReloadAssembly (93ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (3ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (11ms)
+	RebuildCommonClasses (20ms)
+	RebuildNativeTypeToScriptingClass (6ms)
+	initialDomainReloadingComplete (23ms)
+	LoadAllAssembliesAndSetupDomain (283ms)
+		LoadAssemblies (198ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (143ms)
+			TypeCache.Refresh (122ms)
+				TypeCache.ScanAssembly (113ms)
+			ScanForSourceGeneratedMonoScriptInfo (13ms)
+			ResolveRequiredComponents (6ms)
+	FinalizeReload (459ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (370ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (3ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (43ms)
+			ProcessInitializeOnLoadAttributes (288ms)
+			ProcessInitializeOnLoadMethodAttributes (32ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (6ms)
+WARNING: Shader Unsupported: 'Hidden/Universal Render Pipeline/Terrain/Lit (Base Pass)' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Hidden/Universal Render Pipeline/Terrain/Lit (Base Pass)' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Universal Render Pipeline/Terrain/Lit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Universal Render Pipeline/Terrain/Lit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 2.04 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5378 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 31 unused Assets / (0.7 MB). Loaded Objects now: 5847.
+Memory consumption went from 216.7 MB to 216.0 MB.
+Total: 2.593300 ms (FindLiveObjects: 0.220400 ms CreateObjectMapping: 0.077400 ms MarkObjects: 2.102900 ms  DeleteObjects: 0.191900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 72b91833f83ae208fae7752999fa3104 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 277028.555509 seconds.
+  path: Assets/PolygonNatureBiomes/PNB_Meadow_Forest/Models/SM_Env_Tree_Fruit_01.fbx
+  artifactKey: Guid(4e8aaaaf188060f48bc35472a587077f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonNatureBiomes/PNB_Meadow_Forest/Models/SM_Env_Tree_Fruit_01.fbx using Guid(4e8aaaaf188060f48bc35472a587077f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: 'a3148ebc0dff2e9ca8d28cad5c6035e5') in 0.110677 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 20
+========================================================================
+Received Prepare
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.330 seconds
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.862 seconds
+Domain Reload Profiling: 1192ms
+	BeginReloadAssembly (119ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (2ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (27ms)
+	RebuildCommonClasses (23ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (19ms)
+	LoadAllAssembliesAndSetupDomain (162ms)
+		LoadAssemblies (211ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (16ms)
+			TypeCache.Refresh (5ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (7ms)
+	FinalizeReload (863ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (383ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (3ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (44ms)
+			ProcessInitializeOnLoadAttributes (297ms)
+			ProcessInitializeOnLoadMethodAttributes (33ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (7ms)
+WARNING: Shader Unsupported: 'Hidden/Universal Render Pipeline/Terrain/Lit (Base Pass)' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Hidden/Universal Render Pipeline/Terrain/Lit (Base Pass)' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Universal Render Pipeline/Terrain/Lit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Universal Render Pipeline/Terrain/Lit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Refreshing native plugins compatible for Editor in 2.34 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5285 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 25 unused Assets / (0.6 MB). Loaded Objects now: 5863.
+Memory consumption went from 200.3 MB to 199.7 MB.
+Total: 2.518700 ms (FindLiveObjects: 0.208100 ms CreateObjectMapping: 0.073700 ms MarkObjects: 2.039600 ms  DeleteObjects: 0.196100 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 72b91833f83ae208fae7752999fa3104 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 1268.264065 seconds.
+  path: Assets/PolygonNatureBiomes/PNB_Meadow_Forest/Models/SM_Env_Tree_Birch_02.fbx
+  artifactKey: Guid(d02afc6bc2148dd4a9e7d81b46df4b06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonNatureBiomes/PNB_Meadow_Forest/Models/SM_Env_Tree_Birch_02.fbx using Guid(d02afc6bc2148dd4a9e7d81b46df4b06) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '4f5d9d75873414171c417a9cf9ae2e71') in 0.121788 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 35
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Synty/PolygonGeneric/Models/SM_Gen_Env_Background_Mountain_01.fbx
+  artifactKey: Guid(2f2e608aae9f0044c988113c516f1b93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Synty/PolygonGeneric/Models/SM_Gen_Env_Background_Mountain_01.fbx using Guid(2f2e608aae9f0044c988113c516f1b93) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: 'dfd6ba4912df1a692cf3e247c74f2086') in 0.033534 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Synty/PolygonGeneric/Models/SM_Gen_Env_Cloud_02.fbx
+  artifactKey: Guid(ba1bf23dd02ba7648ab6568d7765d90f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Synty/PolygonGeneric/Models/SM_Gen_Env_Cloud_02.fbx using Guid(ba1bf23dd02ba7648ab6568d7765d90f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '6bf0581f385dba754a6aeaf1bb682dd0') in 0.031414 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Synty/PolygonGeneric/Models/SM_Gen_Env_Grass_02.fbx
+  artifactKey: Guid(08d27d31f864da94d8ba3248402bdbbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Synty/PolygonGeneric/Models/SM_Gen_Env_Grass_02.fbx using Guid(08d27d31f864da94d8ba3248402bdbbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '55b561c1d7489ffbec374c8898a9d087') in 0.030742 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Synty/PolygonGeneric/Models/SM_Gen_Bld_Beam_03.fbx
+  artifactKey: Guid(5272ae6a83f838548986b2e3f4432cfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Synty/PolygonGeneric/Models/SM_Gen_Bld_Beam_03.fbx using Guid(5272ae6a83f838548986b2e3f4432cfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: 'f58e6ffcac58a00a1a6b923b9de34ed5') in 0.027521 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Synty/PolygonGeneric/Models/SM_Gen_Env_Bush_01.fbx
+  artifactKey: Guid(ed9a19bdbe2562f428829102f4d0f1f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Synty/PolygonGeneric/Models/SM_Gen_Env_Bush_01.fbx using Guid(ed9a19bdbe2562f428829102f4d0f1f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '04a090637cc095a1ac65345bf90def20') in 0.037099 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/PolygonNatureBiomes/PNB_Meadow_Forest/Models/SM_Env_Tree_Fruit_02.fbx
+  artifactKey: Guid(e3cacad98fbea27469bc631a4edada6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonNatureBiomes/PNB_Meadow_Forest/Models/SM_Env_Tree_Fruit_02.fbx using Guid(e3cacad98fbea27469bc631a4edada6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: 'f7ca045180d8aedebf57faf639eb7ff8') in 0.024821 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 20
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Synty/PolygonGeneric/Models/SM_Gen_Env_Grass_Tall_01.fbx
+  artifactKey: Guid(e25f4107d5321a240872043b3cdd4733) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Synty/PolygonGeneric/Models/SM_Gen_Env_Grass_Tall_01.fbx using Guid(e25f4107d5321a240872043b3cdd4733) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '314ca70622eb25c46a876a2432e506ee') in 0.012515 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Synty/PolygonGeneric/Models/SM_Gen_Bld_Pipe_Cap_02.fbx
+  artifactKey: Guid(37c277dc23fc3884ba9f2fb3a0de2123) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Synty/PolygonGeneric/Models/SM_Gen_Bld_Pipe_Cap_02.fbx using Guid(37c277dc23fc3884ba9f2fb3a0de2123) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: 'b369d43d8e4d28d29243c318f86df733') in 0.011930 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/PolygonNatureBiomes/PNB_Meadow_Forest/Models/SM_Env_Wildflowers_Patch_01.fbx
+  artifactKey: Guid(36b688452b3e4d948bb0b9e6f7321737) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonNatureBiomes/PNB_Meadow_Forest/Models/SM_Env_Wildflowers_Patch_01.fbx using Guid(36b688452b3e4d948bb0b9e6f7321737) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '6c38e7e97aadec11900195518598a314') in 0.028484 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Synty/PolygonGeneric/Models/SM_Gen_Env_Grass_03.fbx
+  artifactKey: Guid(25d79c9801eef67488e1842d4fec888f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Synty/PolygonGeneric/Models/SM_Gen_Env_Grass_03.fbx using Guid(25d79c9801eef67488e1842d4fec888f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: 'd544acfbbcb86bf704d0b7e1d4280dae') in 0.006156 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Synty/PolygonGeneric/Models/SM_Gen_Bld_Pipe_Corner_01.fbx
+  artifactKey: Guid(cf083406fc9bcc44f93cbd822d268db2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Synty/PolygonGeneric/Models/SM_Gen_Bld_Pipe_Corner_01.fbx using Guid(cf083406fc9bcc44f93cbd822d268db2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: 'ffbefd509b1084edb945b766f61ed743') in 0.006568 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/Synty/PolygonGeneric/Models/SM_Gen_Bld_Pipe_Cross_01.fbx
+  artifactKey: Guid(3c1188d8bc64a534d8ab9991c9c60398) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Synty/PolygonGeneric/Models/SM_Gen_Bld_Pipe_Cross_01.fbx using Guid(3c1188d8bc64a534d8ab9991c9c60398) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '91e0ba0611d2b1e76609228e48c5b6b6') in 0.010328 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Synty/PolygonGeneric/Models/SM_Gen_Env_Bush_Part_02.fbx
+  artifactKey: Guid(79255d8333d113e4c9307a3142a991ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Synty/PolygonGeneric/Models/SM_Gen_Env_Bush_Part_02.fbx using Guid(79255d8333d113e4c9307a3142a991ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '1de139596cb0fb49ed64a8717be7492f') in 0.007218 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Synty/PolygonGeneric/Models/SM_Gen_Env_Bush_Part_04.fbx
+  artifactKey: Guid(bc0679cbbb16abc459c787013c9b52ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Synty/PolygonGeneric/Models/SM_Gen_Env_Bush_Part_04.fbx using Guid(bc0679cbbb16abc459c787013c9b52ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: 'd5f365f8b3c14cf7787b1672fefff8b6') in 0.007113 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000083 seconds.
+  path: Assets/Synty/PolygonGeneric/Models/SM_Gen_Env_Bush_Large_03.fbx
+  artifactKey: Guid(49af91e24a7b81a489210a016b4f2cc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Synty/PolygonGeneric/Models/SM_Gen_Env_Bush_Large_03.fbx using Guid(49af91e24a7b81a489210a016b4f2cc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '285690c4476a400b6fb6239b87582a2e') in 0.018837 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Synty/PolygonGeneric/Models/SM_Gen_Bld_Pipe_Straight_03.fbx
+  artifactKey: Guid(d692ca05e77d9c148b66c08bee9bd9cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Synty/PolygonGeneric/Models/SM_Gen_Bld_Pipe_Straight_03.fbx using Guid(d692ca05e77d9c148b66c08bee9bd9cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: 'ee158a674acdfb55a7cfd6d8402dcfe6') in 0.005740 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/Synty/PolygonGeneric/Models/SM_Gen_Env_Fern_01.fbx
+  artifactKey: Guid(32920698945b72c4aaca367952f86dea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Synty/PolygonGeneric/Models/SM_Gen_Env_Fern_01.fbx using Guid(32920698945b72c4aaca367952f86dea) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '8b1800f1d6c179eec503d600d1efa01e') in 0.006683 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/Synty/PolygonGeneric/Models/SM_Gen_Env_Flowers_08.fbx
+  artifactKey: Guid(3dfd26b8a569097418889da1c719b3a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Synty/PolygonGeneric/Models/SM_Gen_Env_Flowers_08.fbx using Guid(3dfd26b8a569097418889da1c719b3a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '062de7cda8232648c77dd3887a0f6565') in 0.012424 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Synty/PolygonGeneric/Models/SM_Gen_Env_Grass_06.fbx
+  artifactKey: Guid(43189536055482f47bf03eb33e9890be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Synty/PolygonGeneric/Models/SM_Gen_Env_Grass_06.fbx using Guid(43189536055482f47bf03eb33e9890be) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: 'e26f5bf7e2280e2f3fbd7288e565f201') in 0.011956 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/PolygonNatureBiomes/PNB_Meadow_Forest/Models/SM_Env_Wildflowers_01.fbx
+  artifactKey: Guid(65b952eae7ce10949be7dadf43a46971) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonNatureBiomes/PNB_Meadow_Forest/Models/SM_Env_Wildflowers_01.fbx using Guid(65b952eae7ce10949be7dadf43a46971) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: 'd4830d375cb03488ba04ed74c59bd7a6') in 0.022892 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 20
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/Synty/PolygonGeneric/Models/SM_Gen_Env_Bush_02.fbx
+  artifactKey: Guid(7a585de584c403448a31dbb94917dcc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Synty/PolygonGeneric/Models/SM_Gen_Env_Bush_02.fbx using Guid(7a585de584c403448a31dbb94917dcc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: 'd29dd53528d601d2d23b798b47907b2d') in 0.018737 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Synty/PolygonGeneric/Models/SM_Gen_Env_Bush_Large_01.fbx
+  artifactKey: Guid(3901d441c6f06f34ebbc4d674320266c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Synty/PolygonGeneric/Models/SM_Gen_Env_Bush_Large_01.fbx using Guid(3901d441c6f06f34ebbc4d674320266c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '24a6702a06fa043b75602fcc3b93e7cb') in 0.006305 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/PolygonNatureBiomes/PNB_Meadow_Forest/Models/SM_Env_Wildflowers_Patch_02.fbx
+  artifactKey: Guid(be08f1f5d0662cd4da4647237b9161cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonNatureBiomes/PNB_Meadow_Forest/Models/SM_Env_Wildflowers_Patch_02.fbx using Guid(be08f1f5d0662cd4da4647237b9161cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: 'fdcf8f399d34fedcf2ec37030dfa0345') in 0.024781 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Synty/PolygonGeneric/Models/SM_Gen_Env_Grass_04.fbx
+  artifactKey: Guid(bf5a7921f8fa50f4ea16d27a10d89a09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Synty/PolygonGeneric/Models/SM_Gen_Env_Grass_04.fbx using Guid(bf5a7921f8fa50f4ea16d27a10d89a09) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: 'aefa2da7318e316c893d981e675c344d') in 0.007707 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Synty/PolygonGeneric/Models/SM_Gen_Bld_Pipe_Corner_02.fbx
+  artifactKey: Guid(e6309b0a92408184c9c5c1f25f59c35a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Synty/PolygonGeneric/Models/SM_Gen_Bld_Pipe_Corner_02.fbx using Guid(e6309b0a92408184c9c5c1f25f59c35a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '51cc5887125f8f0cb1d52301845dbf6f') in 0.006176 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/Synty/PolygonGeneric/Models/SM_Gen_Bld_Pipe_T_01.fbx
+  artifactKey: Guid(e0554dcc20087d04fb9a6015d0098c39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Synty/PolygonGeneric/Models/SM_Gen_Bld_Pipe_T_01.fbx using Guid(e0554dcc20087d04fb9a6015d0098c39) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: 'dc86b5206d8d14a8671c138d010d4939') in 0.009823 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Synty/PolygonGeneric/Models/SM_Gen_Bld_Pipe_Straight_01.fbx
+  artifactKey: Guid(d10eca00e168e8b41a8750dbdc00f25b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Synty/PolygonGeneric/Models/SM_Gen_Bld_Pipe_Straight_01.fbx using Guid(d10eca00e168e8b41a8750dbdc00f25b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: 'f94fdb9a9172519cc4d0e43912173a95') in 0.006124 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Synty/PolygonGeneric/Models/SM_Gen_Env_Flowers_07.fbx
+  artifactKey: Guid(fb95186f12330a946a2f786b4ca05e2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Synty/PolygonGeneric/Models/SM_Gen_Env_Flowers_07.fbx using Guid(fb95186f12330a946a2f786b4ca05e2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '21c5efac5de36d6884a8df7cf0df663f') in 0.006522 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Synty/PNB_Core/Models/SM_Env_Water_Plane_02.fbx
+  artifactKey: Guid(b9c778b9f476be4489801d26a4d2cd4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Synty/PNB_Core/Models/SM_Env_Water_Plane_02.fbx using Guid(b9c778b9f476be4489801d26a4d2cd4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '4ba15c5ee7c018c1f73b9362a70dec08') in 0.007902 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Synty/PolygonGeneric/Models/SM_Gen_Env_Background_Mountain_02.fbx
+  artifactKey: Guid(2ae915ed8a085d440bb1587652187911) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Synty/PolygonGeneric/Models/SM_Gen_Env_Background_Mountain_02.fbx using Guid(2ae915ed8a085d440bb1587652187911) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: 'f3717e6cdf24ca875d83149566a315e1') in 0.009286 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/PolygonNatureBiomes/PNB_Meadow_Forest/Models/SM_Env_Wildflowers_Patch_03.fbx
+  artifactKey: Guid(429a2e9b1de952a48bbeeb8461ce8d2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonNatureBiomes/PNB_Meadow_Forest/Models/SM_Env_Wildflowers_Patch_03.fbx using Guid(429a2e9b1de952a48bbeeb8461ce8d2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '1ae74e245f993da26ab38e32b7d83913') in 0.026191 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Synty/PolygonGeneric/Models/SM_Gen_Env_Flowers_03.fbx
+  artifactKey: Guid(d2e566620014bc94285f41de8f188e1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Synty/PolygonGeneric/Models/SM_Gen_Env_Flowers_03.fbx using Guid(d2e566620014bc94285f41de8f188e1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '3a8021362e62de9d9005f63bcfcf3cfe') in 0.007380 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Synty/PolygonGeneric/Models/SM_Gen_Bld_Pipe_Straight_02.fbx
+  artifactKey: Guid(c980d8b7138464d47a68e0623676448a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Synty/PolygonGeneric/Models/SM_Gen_Bld_Pipe_Straight_02.fbx using Guid(c980d8b7138464d47a68e0623676448a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: 'ba71a90734741791e12676cf2e9ccd61') in 0.008849 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Synty/PolygonGeneric/Models/SM_Gen_Env_Cloud_01.fbx
+  artifactKey: Guid(9e1c9dedb2a161d4ea71d7ec42e5a12a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Synty/PolygonGeneric/Models/SM_Gen_Env_Cloud_01.fbx using Guid(9e1c9dedb2a161d4ea71d7ec42e5a12a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '094c731376ea61a76f090cf8466fb8d5') in 0.009314 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Synty/PolygonGeneric/Models/SM_Gen_Env_Bush_Part_01.fbx
+  artifactKey: Guid(d644098581a4b43468d9192ec8fa4b2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Synty/PolygonGeneric/Models/SM_Gen_Env_Bush_Part_01.fbx using Guid(d644098581a4b43468d9192ec8fa4b2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '16da3331fb655b11562ad157fa0283d7') in 0.009827 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Synty/PolygonGeneric/Models/SM_Gen_Env_Bush_Part_03.fbx
+  artifactKey: Guid(8f933770e4678a341b8a0fb916264a58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Synty/PolygonGeneric/Models/SM_Gen_Env_Bush_Part_03.fbx using Guid(8f933770e4678a341b8a0fb916264a58) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: 'f5a3c8a758937159436c7efe2ed4951b') in 0.009580 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Synty/PolygonGeneric/Models/SM_Gen_Env_Bush_Part_06.fbx
+  artifactKey: Guid(fd89957c990d020418ebc657d3f8c0e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Synty/PolygonGeneric/Models/SM_Gen_Env_Bush_Part_06.fbx using Guid(fd89957c990d020418ebc657d3f8c0e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '1ec940171c4df513dec64cdf9f19faef') in 0.009928 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Synty/PolygonGeneric/Models/SM_Gen_Env_Grass_01.fbx
+  artifactKey: Guid(a63c15d620397a046bfe4634671f5fbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Synty/PolygonGeneric/Models/SM_Gen_Env_Grass_01.fbx using Guid(a63c15d620397a046bfe4634671f5fbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '9a99877c1d8e984dced5faf86653e2f1') in 0.009324 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 3.028710 seconds.
+  path: Assets/Synty/PolygonGeneric/Models/SM_Gen_Env_Grass_Tall_02.fbx
+  artifactKey: Guid(254eee66e120f6545848042f6c549a9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Synty/PolygonGeneric/Models/SM_Gen_Env_Grass_Tall_02.fbx using Guid(254eee66e120f6545848042f6c549a9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '9b450659a0172eb953161bd24300caf0') in 0.007650 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Synty/PolygonGeneric/Models/SM_Gen_Env_Ground_Dirt_02.fbx
+  artifactKey: Guid(f1f4999fff8548d42aa90af1083c8057) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Synty/PolygonGeneric/Models/SM_Gen_Env_Ground_Dirt_02.fbx using Guid(f1f4999fff8548d42aa90af1083c8057) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '04f08da571a7a391732fa7421fb30703') in 0.012329 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Synty/PolygonGeneric/Models/SM_Gen_Env_Ground_Dirt_03.fbx
+  artifactKey: Guid(97036b22bba62f74eb7b2c342d28b701) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Synty/PolygonGeneric/Models/SM_Gen_Env_Ground_Dirt_03.fbx using Guid(97036b22bba62f74eb7b2c342d28b701) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: 'c90fa08b9d1d9789558c6e36c82c393a') in 0.014250 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Synty/PolygonGeneric/Models/SM_Gen_Env_Ground_Grass_Large_01.fbx
+  artifactKey: Guid(00ab310ff1c45eb4c9d73550c08d3c7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Synty/PolygonGeneric/Models/SM_Gen_Env_Ground_Grass_Large_01.fbx using Guid(00ab310ff1c45eb4c9d73550c08d3c7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: 'f5ed96f637ee607f60a7d1303751be0c') in 0.008572 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Synty/PolygonGeneric/Models/SM_Gen_Env_Ground_Grass_Large_02.fbx
+  artifactKey: Guid(867b0f37b21269f4f9ecce5e82596fc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Synty/PolygonGeneric/Models/SM_Gen_Env_Ground_Grass_Large_02.fbx using Guid(867b0f37b21269f4f9ecce5e82596fc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: 'd6c00816694df37a0bc21a4773f064be') in 0.008598 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Synty/PolygonGeneric/Models/SM_Gen_Env_Ground_River_Grass_01.fbx
+  artifactKey: Guid(bcecbc79871bfc349a0e8f4cde64e69b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Synty/PolygonGeneric/Models/SM_Gen_Env_Ground_River_Grass_01.fbx using Guid(bcecbc79871bfc349a0e8f4cde64e69b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: 'ee5f0de122da4731921c1e58df6743dd') in 0.013792 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Synty/PolygonGeneric/Models/SM_Gen_Env_Ground_River_Grass_Large_02.fbx
+  artifactKey: Guid(240fc9924bfa35149b7c294394c18b7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Synty/PolygonGeneric/Models/SM_Gen_Env_Ground_River_Grass_Large_02.fbx using Guid(240fc9924bfa35149b7c294394c18b7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: 'c4e40f3d07defe31fddb59e550af1585') in 0.014798 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Synty/PolygonGeneric/Models/SM_Gen_Env_Ground_River_Grass_03.fbx
+  artifactKey: Guid(cfb993f62658bde4b80ff62909a69257) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Synty/PolygonGeneric/Models/SM_Gen_Env_Ground_River_Grass_03.fbx using Guid(cfb993f62658bde4b80ff62909a69257) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '7c4e17e8051253b9ecdf16f416f56bda') in 0.009807 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Synty/PolygonGeneric/Models/SM_Gen_Env_Ground_River_Grass_07.fbx
+  artifactKey: Guid(058412ac50322cb46923c612a2adf14e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Synty/PolygonGeneric/Models/SM_Gen_Env_Ground_River_Grass_07.fbx using Guid(058412ac50322cb46923c612a2adf14e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: 'eb25727b5248b1ef6501d27dd7afcf2d') in 0.011001 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Synty/PolygonGeneric/Models/SM_Gen_Env_Ground_Grass_02.fbx
+  artifactKey: Guid(9fabc8d8cd798724599709e6393d2ac6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Synty/PolygonGeneric/Models/SM_Gen_Env_Ground_Grass_02.fbx using Guid(9fabc8d8cd798724599709e6393d2ac6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: 'c61d093071b4f4a1799dc1e2cae14439') in 0.012110 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Synty/PolygonGeneric/Models/SM_Gen_Env_Ground_Dirt_Large_03.fbx
+  artifactKey: Guid(1cb6a0922049dac43902c8a0594a0dd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Synty/PolygonGeneric/Models/SM_Gen_Env_Ground_Dirt_Large_03.fbx using Guid(1cb6a0922049dac43902c8a0594a0dd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: 'e05796524e2df61670ead21bc7eb528a') in 0.014577 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Synty/PolygonGeneric/Models/SM_Gen_Env_Ground_River_Dirt_Large_03.fbx
+  artifactKey: Guid(563f896dc6644a548a4452a3185ca88d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Synty/PolygonGeneric/Models/SM_Gen_Env_Ground_River_Dirt_Large_03.fbx using Guid(563f896dc6644a548a4452a3185ca88d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '12c9ebb24fd523df217bdc0fcf0b2577') in 0.008797 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Synty/PolygonGeneric/Models/SM_Gen_Env_Ground_Slope__Dirt_01.fbx
+  artifactKey: Guid(3527bc88a7a73314e80c0b8c836fc7ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Synty/PolygonGeneric/Models/SM_Gen_Env_Ground_Slope__Dirt_01.fbx using Guid(3527bc88a7a73314e80c0b8c836fc7ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '0dd885731ad4ba8889fe1ba50ed7ccf4') in 0.009763 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Synty/PolygonGeneric/Models/SM_Gen_Env_Ground_River_Grass_06.fbx
+  artifactKey: Guid(2553e08386694b447b51b60c2034cb5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Synty/PolygonGeneric/Models/SM_Gen_Env_Ground_River_Grass_06.fbx using Guid(2553e08386694b447b51b60c2034cb5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '442f7c190c27ec0b32e30cd05d276e5e') in 0.012352 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Synty/PolygonGeneric/Models/SM_Gen_Env_Ground_Dirt_01.fbx
+  artifactKey: Guid(839f95ad66158154598043b59e590f01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Synty/PolygonGeneric/Models/SM_Gen_Env_Ground_Dirt_01.fbx using Guid(839f95ad66158154598043b59e590f01) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '8c776debe14a8731b6c27cfba31115ad') in 0.008644 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Synty/PolygonGeneric/Models/SM_Gen_Env_Ground_River_Dirt_01.fbx
+  artifactKey: Guid(51e82b177b74dab448fc3d9a27cf8292) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Synty/PolygonGeneric/Models/SM_Gen_Env_Ground_River_Dirt_01.fbx using Guid(51e82b177b74dab448fc3d9a27cf8292) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: 'e8f445c5e5b86b0318d4925c976aa09e') in 0.008798 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/Synty/PolygonGeneric/Models/SM_Gen_Env_Ground_Slope__Grass_01.fbx
+  artifactKey: Guid(2e595c69502e784469bdb5bf5a5ee490) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Synty/PolygonGeneric/Models/SM_Gen_Env_Ground_Slope__Grass_01.fbx using Guid(2e595c69502e784469bdb5bf5a5ee490) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '0f61e584b4d024f02c8489ec3f5e9e13') in 0.008621 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Synty/PolygonGeneric/Models/SM_Gen_Env_Ground_Grass_03.fbx
+  artifactKey: Guid(f2d871672942ab14d92a99ceaf365db2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Synty/PolygonGeneric/Models/SM_Gen_Env_Ground_Grass_03.fbx using Guid(f2d871672942ab14d92a99ceaf365db2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '5935fcf1586fe0ecf20378a0d67743fb') in 0.006861 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Synty/PolygonGeneric/Models/SM_Gen_Env_Ground_River_Grass_04.fbx
+  artifactKey: Guid(3720c5164249c9f4bb22fc7a0a2c24f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Synty/PolygonGeneric/Models/SM_Gen_Env_Ground_River_Grass_04.fbx using Guid(3720c5164249c9f4bb22fc7a0a2c24f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '3f9c21850da4c5c14b88a989658d8767') in 0.008898 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 1.836485 seconds.
+  path: Assets/Synty/PolygonGeneric/Models/SM_Gen_Env_Ground_Slope_Grass_02.fbx
+  artifactKey: Guid(62b6de89c3d45d5448655ce0878443cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Synty/PolygonGeneric/Models/SM_Gen_Env_Ground_Slope_Grass_02.fbx using Guid(62b6de89c3d45d5448655ce0878443cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: 'a961464c85be029b721c340ccb6cbc93') in 0.009515 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Synty/PolygonGeneric/Models/SM_Gen_Env_Ivy_08.fbx
+  artifactKey: Guid(0dc81462ecda69b45a78898faaea11f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Synty/PolygonGeneric/Models/SM_Gen_Env_Ivy_08.fbx using Guid(0dc81462ecda69b45a78898faaea11f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '6515fb652b719e77314be053ead18893') in 0.044410 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000119 seconds.
+  path: Assets/Synty/PolygonGeneric/Models/SM_Gen_Env_Ivy_10.fbx
+  artifactKey: Guid(c57831dce55cad24cb3e435af7b56cd5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Synty/PolygonGeneric/Models/SM_Gen_Env_Ivy_10.fbx using Guid(c57831dce55cad24cb3e435af7b56cd5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '82089db5fe69df27655ba32eb9f082fa') in 0.046735 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Synty/PolygonGeneric/Models/SM_Gen_Env_Ivy_Draped_03.fbx
+  artifactKey: Guid(b7ee0848821b4b445beecb5a5f9e32cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Synty/PolygonGeneric/Models/SM_Gen_Env_Ivy_Draped_03.fbx using Guid(b7ee0848821b4b445beecb5a5f9e32cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '32b138411c547e568047374046c049a7') in 0.010234 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Synty/PolygonGeneric/Models/SM_Gen_Env_Leaves_02.fbx
+  artifactKey: Guid(1a36c549909b5204289629eac002c1ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Synty/PolygonGeneric/Models/SM_Gen_Env_Leaves_02.fbx using Guid(1a36c549909b5204289629eac002c1ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: 'ebf22ca6fea0d813d4bdef330f9aabd6') in 0.082981 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.270117 seconds.
+  path: Assets/Synty/PolygonGeneric/Models/SM_Gen_Env_Lilypads_02.fbx
+  artifactKey: Guid(27c02e5b18831e445bfe5f30a7acf39d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Synty/PolygonGeneric/Models/SM_Gen_Env_Lilypads_02.fbx using Guid(27c02e5b18831e445bfe5f30a7acf39d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '33969c315b071c83f26cfc29561a7ffa') in 0.010367 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.043155 seconds.
+  path: Assets/Synty/PolygonGeneric/Models/SM_Gen_Env_Road_Gravel_Corner_Small_02.fbx
+  artifactKey: Guid(3fbb3e500c9f58340af75461109842b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Synty/PolygonGeneric/Models/SM_Gen_Env_Road_Gravel_Corner_Small_02.fbx using Guid(3fbb3e500c9f58340af75461109842b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: 'd922f0fa824357de95eea6e81bcdb24f') in 0.007914 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Synty/PolygonGeneric/Models/SM_Gen_Env_Rock_06.fbx
+  artifactKey: Guid(3c57b5d93072ee1448c2fd6fa88086f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Synty/PolygonGeneric/Models/SM_Gen_Env_Rock_06.fbx using Guid(3c57b5d93072ee1448c2fd6fa88086f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '45afafbf5fb9c8e185d283932225bc61') in 0.012412 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 1.470424 seconds.
+  path: Assets/Synty/PolygonGeneric/Models/SM_Gen_Env_Rock_09.fbx
+  artifactKey: Guid(feaac6b6b3ad4f64894a51fc24db69b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Synty/PolygonGeneric/Models/SM_Gen_Env_Rock_09.fbx using Guid(feaac6b6b3ad4f64894a51fc24db69b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '7071f1dd8bd5e84fb682a93918592eac') in 0.006664 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Synty/PolygonGeneric/Models/SM_Gen_Env_Shrub_03.fbx
+  artifactKey: Guid(73983603174935c48b9d134c9604358d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Synty/PolygonGeneric/Models/SM_Gen_Env_Shrub_03.fbx using Guid(73983603174935c48b9d134c9604358d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '48962832da2b2a82d41638706455cd21') in 0.013174 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.029040 seconds.
+  path: Assets/Synty/PolygonGeneric/Models/SM_Gen_Env_Skyline_01.fbx
+  artifactKey: Guid(6eb974f7a2eecb549bff1d0994ab2ed6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Synty/PolygonGeneric/Models/SM_Gen_Env_Skyline_01.fbx using Guid(6eb974f7a2eecb549bff1d0994ab2ed6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: 'a47a1c5fddf8359b80e38f8c141e0937') in 0.114720 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 22
+========================================================================
+Received Import Request.
+  Time since last request: 21.794306 seconds.
+  path: Assets/Synty/PolygonGeneric/Models/SM_Gen_Env_Twig_01.fbx
+  artifactKey: Guid(e73740a4d6e78f04e82192c1aad0d463) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Synty/PolygonGeneric/Models/SM_Gen_Env_Twig_01.fbx using Guid(e73740a4d6e78f04e82192c1aad0d463) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: 'f62e19c095b573a215c8767241a424b2') in 0.127423 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Synty/PolygonGeneric/Models/SM_Gen_Prop_Aircon_Roof_02.fbx
+  artifactKey: Guid(7112f46d588f87a4f8c292b1f61874fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Synty/PolygonGeneric/Models/SM_Gen_Prop_Aircon_Roof_02.fbx using Guid(7112f46d588f87a4f8c292b1f61874fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '5ce450f0c97760f2f8560ceed103a819') in 0.045599 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 2.553723 seconds.
+  path: Assets/Synty/PolygonGeneric/Models/SM_Gen_Prop_Barrel_Wood_01.fbx
+  artifactKey: Guid(2947e04cd2b7501429de715b54ba3ef2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Synty/PolygonGeneric/Models/SM_Gen_Prop_Barrel_Wood_01.fbx using Guid(2947e04cd2b7501429de715b54ba3ef2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '68302a3b326ddc588dc27656ad1a89d0') in 0.008218 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Synty/PolygonGeneric/Models/SM_Gen_Prop_Cardboard_Box_01.fbx
+  artifactKey: Guid(49d88c645a2ee0841bfa4b93e5451980) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Synty/PolygonGeneric/Models/SM_Gen_Prop_Cardboard_Box_01.fbx using Guid(49d88c645a2ee0841bfa4b93e5451980) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: 'd3dfdc5bdebd8fd773cab86adc33a7e4') in 0.014946 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.046587 seconds.
+  path: Assets/Synty/PolygonGeneric/Models/SM_Gen_Prop_Cardboard_Box_04.fbx
+  artifactKey: Guid(9d372ea72cd34eb46896f3273ceb4b31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Synty/PolygonGeneric/Models/SM_Gen_Prop_Cardboard_Box_04.fbx using Guid(9d372ea72cd34eb46896f3273ceb4b31) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '5fd8cc0a5dc192d72ddebf972b32d993') in 0.008765 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Synty/PolygonGeneric/Models/SM_Gen_Prop_Chest_01.fbx
+  artifactKey: Guid(5c477d5bbd0a52a4684e82987e4aa66a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Synty/PolygonGeneric/Models/SM_Gen_Prop_Chest_01.fbx using Guid(5c477d5bbd0a52a4684e82987e4aa66a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '14e04f27e0e69a4b26b321c87a6a33f9') in 0.018878 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 17
+========================================================================
+Received Import Request.
+  Time since last request: 0.794923 seconds.
+  path: Assets/Synty/PolygonGeneric/Models/SM_Gen_Prop_Coin_Pile_02.fbx
+  artifactKey: Guid(e90c855d10500fc47a4ab2887fb02282) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Synty/PolygonGeneric/Models/SM_Gen_Prop_Coin_Pile_02.fbx using Guid(e90c855d10500fc47a4ab2887fb02282) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: 'ce202b9fe0844308414cc73a1db581e6') in 0.009153 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Synty/PolygonGeneric/Models/SM_Gen_Prop_Food_Bread_02.fbx
+  artifactKey: Guid(bd1e64ec8ac28b34e807385f215e89fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Synty/PolygonGeneric/Models/SM_Gen_Prop_Food_Bread_02.fbx using Guid(bd1e64ec8ac28b34e807385f215e89fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '4d487d48579230f1a8d3806f43571da7') in 0.020488 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.015388 seconds.
+  path: Assets/Synty/PolygonGeneric/Models/SM_Gen_Prop_Food_Meat_05.fbx
+  artifactKey: Guid(28737437285fafa4191da96d361ceee7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Synty/PolygonGeneric/Models/SM_Gen_Prop_Food_Meat_05.fbx using Guid(28737437285fafa4191da96d361ceee7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: 'f847109ecc653457dbd4b840f343c4f7') in 0.009843 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Synty/PolygonGeneric/Models/SM_Gen_Prop_Lever_01.fbx
+  artifactKey: Guid(eacf13e12c65ba842b010aebbc809075) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Synty/PolygonGeneric/Models/SM_Gen_Prop_Lever_01.fbx using Guid(eacf13e12c65ba842b010aebbc809075) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '3ca7c4feff18cc2ed5329e33350583f9') in 0.026196 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Synty/PolygonGeneric/Models/SM_Gen_Prop_Papers_02.fbx
+  artifactKey: Guid(b50efe9fbecd1064cad2d9ed71e9dd82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Synty/PolygonGeneric/Models/SM_Gen_Prop_Papers_02.fbx using Guid(b50efe9fbecd1064cad2d9ed71e9dd82) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '7547140740c331ddfce87d0bdf17f90b') in 0.016075 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000267 seconds.
+  path: Assets/Synty/PolygonGeneric/Models/SM_Gen_Prop_Light_Wall_01.fbx
+  artifactKey: Guid(8b89d0af22b30374c959171ff4902a3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Synty/PolygonGeneric/Models/SM_Gen_Prop_Light_Wall_01.fbx using Guid(8b89d0af22b30374c959171ff4902a3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '35101fe506851a01048bf3c60a5f85c8') in 0.018021 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 1.999291 seconds.
+  path: Assets/Synty/PolygonGeneric/Models/SM_Gen_Prop_Plinth_02.fbx
+  artifactKey: Guid(26faea8082b43e64ebcc1750f7dbabde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Synty/PolygonGeneric/Models/SM_Gen_Prop_Plinth_02.fbx using Guid(26faea8082b43e64ebcc1750f7dbabde) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '621c5ec41a29ee7a5c33d129ef8e5600') in 0.013660 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Synty/PolygonGeneric/Models/SM_Gen_Prop_Sack_01.fbx
+  artifactKey: Guid(c8dfd738819d15f4da88a11855fa34ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Synty/PolygonGeneric/Models/SM_Gen_Prop_Sack_01.fbx using Guid(c8dfd738819d15f4da88a11855fa34ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: 'ec100ad301c51f411461666234e46b90') in 0.070662 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Synty/PolygonGeneric/Models/SM_Gen_Prop_Statue_02.fbx
+  artifactKey: Guid(8ff307f58120ad041bc319d527b9f166) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Synty/PolygonGeneric/Models/SM_Gen_Prop_Statue_02.fbx using Guid(8ff307f58120ad041bc319d527b9f166) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '77812b49eaaea61fe392b05ba5fd7eb6') in 0.070325 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Synty/PolygonGeneric/Models/SM_Gen_Prop_Rope_01.fbx
+  artifactKey: Guid(d9209e2768c76fd4984079d82cff0d2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Synty/PolygonGeneric/Models/SM_Gen_Prop_Rope_01.fbx using Guid(d9209e2768c76fd4984079d82cff0d2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '8003581f50733bf2fd080f38f0cc2c48') in 0.066216 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 1.996697 seconds.
+  path: Assets/Synty/PolygonGeneric/Models/SM_Gen_Prop_Statue_04.fbx
+  artifactKey: Guid(6db0449b3d906094386af8750ab1644b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Synty/PolygonGeneric/Models/SM_Gen_Prop_Statue_04.fbx using Guid(6db0449b3d906094386af8750ab1644b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '94f6f3e0d8027ab877f92f5067d7cab7') in 0.037405 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/PolygonNatureBiomes/PNB_Meadow_Forest/Models/SM_Prop_Birdhouse_02.fbx
+  artifactKey: Guid(006e96e0ce0005042b540ed4c1dcdcba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonNatureBiomes/PNB_Meadow_Forest/Models/SM_Prop_Birdhouse_02.fbx using Guid(006e96e0ce0005042b540ed4c1dcdcba) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '8c27ad045635f14d85abb68e21729fa5') in 0.041828 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/PolygonNatureBiomes/PNB_Meadow_Forest/Models/SM_Prop_Gate_Small_01.fbx
+  artifactKey: Guid(20720fd436010a94e8cb2c5b91ac5265) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonNatureBiomes/PNB_Meadow_Forest/Models/SM_Prop_Gate_Small_01.fbx using Guid(20720fd436010a94e8cb2c5b91ac5265) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '426013127a67ad82658d15fdcf7edfe1') in 0.119645 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 1.249492 seconds.
+  path: Assets/PolygonNatureBiomes/PNB_Meadow_Forest/Models/SM_Prop_HorseHitch_01.fbx
+  artifactKey: Guid(8b552b1c09279ee4dba146f2512f84f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonNatureBiomes/PNB_Meadow_Forest/Models/SM_Prop_HorseHitch_01.fbx using Guid(8b552b1c09279ee4dba146f2512f84f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '5e10ed9ca2cc1e0cc327590d212e7363') in 0.013455 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/PolygonNatureBiomes/PNB_Meadow_Forest/Models/SM_Prop_Meadow_Fence_01.fbx
+  artifactKey: Guid(6778eaf6ee69ccd48b46f80dbb5151a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonNatureBiomes/PNB_Meadow_Forest/Models/SM_Prop_Meadow_Fence_01.fbx using Guid(6778eaf6ee69ccd48b46f80dbb5151a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '75b9dec40592bcf9e40f7970697a6040') in 0.010318 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 1.470981 seconds.
+  path: Assets/PolygonNatureBiomes/PNB_Meadow_Forest/Models/SM_Prop_Meadow_Fence_03.fbx
+  artifactKey: Guid(ae369c07e7ed7444a983248cd2b0e02a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonNatureBiomes/PNB_Meadow_Forest/Models/SM_Prop_Meadow_Fence_03.fbx using Guid(ae369c07e7ed7444a983248cd2b0e02a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '50d9e790f0d4b48dbfcfdcfec3f57599') in 0.091106 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000129 seconds.
+  path: Assets/PolygonNatureBiomes/PNB_Meadow_Forest/Models/SM_Prop_Mushroom_02.fbx
+  artifactKey: Guid(daae1f85846bd444281ed75755536f6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonNatureBiomes/PNB_Meadow_Forest/Models/SM_Prop_Mushroom_02.fbx using Guid(daae1f85846bd444281ed75755536f6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: 'b8607e8be6cb60370e1885e6e99a772d') in 0.055333 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/PolygonNatureBiomes/PNB_Meadow_Forest/Models/SM_Prop_Meadow_Fence_Railing_01.fbx
+  artifactKey: Guid(d88bb5accdbc3654cbb986b071313506) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonNatureBiomes/PNB_Meadow_Forest/Models/SM_Prop_Meadow_Fence_Railing_01.fbx using Guid(d88bb5accdbc3654cbb986b071313506) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '4ce18330edc10975d12d1fe8d16950eb') in 0.008161 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.687370 seconds.
+  path: Assets/PolygonNatureBiomes/PNB_Meadow_Forest/Models/SM_Prop_Mushroom_Group_02.fbx
+  artifactKey: Guid(9f8d5f9c061ea6b4ba831226796f2e61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonNatureBiomes/PNB_Meadow_Forest/Models/SM_Prop_Mushroom_Group_02.fbx using Guid(9f8d5f9c061ea6b4ba831226796f2e61) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '558cb469bf18dff1202b8f251a1f847a') in 0.007145 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000343 seconds.
+  path: Assets/PolygonNatureBiomes/PNB_Meadow_Forest/Models/SM_Prop_Mushroom_Sparse_05.fbx
+  artifactKey: Guid(0d86de0839baae64abd2e68ff9ca4b0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonNatureBiomes/PNB_Meadow_Forest/Models/SM_Prop_Mushroom_Sparse_05.fbx using Guid(0d86de0839baae64abd2e68ff9ca4b0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '4ecab99b6f8776081cf99e6f92b929d4') in 0.010814 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 1.559815 seconds.
+  path: Assets/PolygonNatureBiomes/PNB_Meadow_Forest/Models/SM_Prop_SciFiCable_02.fbx
+  artifactKey: Guid(0e30f95068a7b6b428d7a768802094e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonNatureBiomes/PNB_Meadow_Forest/Models/SM_Prop_SciFiCable_02.fbx using Guid(0e30f95068a7b6b428d7a768802094e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: 'cb7cd6b68c19024b5ae8b231b1cd1e9a') in 0.011887 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000249 seconds.
+  path: Assets/PolygonNatureBiomes/PNB_Meadow_Forest/Models/SM_Prop_StoneArch_01.fbx
+  artifactKey: Guid(1a8387bb556f4384d8a30b9f3a92e44f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonNatureBiomes/PNB_Meadow_Forest/Models/SM_Prop_StoneArch_01.fbx using Guid(1a8387bb556f4384d8a30b9f3a92e44f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: 'bf3dc85fce100eaa8415b50f11aad548') in 0.010824 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 31.448882 seconds.
+  path: Assets/PolygonNatureBiomes/PNB_Meadow_Forest/Textures/Normals/WildFlowers_03_Normal.tga
+  artifactKey: Guid(05fb89794ad2e2c4fbc510abe79b9a69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonNatureBiomes/PNB_Meadow_Forest/Textures/Normals/WildFlowers_03_Normal.tga using Guid(05fb89794ad2e2c4fbc510abe79b9a69) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '80051372d3972bc0422f4439fb27178a') in 0.070466 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 7.914320 seconds.
+  path: Assets/PolygonNatureBiomes/PNB_Meadow_Forest/FX/FX_Materials/Butterfly_Mat_03.mat
+  artifactKey: Guid(8bf8b8d5bf2fd5949b9236b6cbf5c36a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonNatureBiomes/PNB_Meadow_Forest/FX/FX_Materials/Butterfly_Mat_03.mat using Guid(8bf8b8d5bf2fd5949b9236b6cbf5c36a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '252c7454c5ae0f02cac7c02b110fa9df') in 0.076935 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/PolygonNatureBiomes/PNB_Meadow_Forest/FX/FX_Materials/Butterfly_Mat_01.mat
+  artifactKey: Guid(6db13e1839b67cc44876a2fc15f56f73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonNatureBiomes/PNB_Meadow_Forest/FX/FX_Materials/Butterfly_Mat_01.mat using Guid(6db13e1839b67cc44876a2fc15f56f73) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: 'bda675c95e87ce985c1835fda8a5a0ef') in 0.098297 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: 由于线程退出或应用程序请求，已中止 I/O 操作。
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
