@@ -104,3 +104,32 @@ InitTestScene*.unity*
 
 # Auto-generated cache in Assets folder
 /[Aa]ssets/[Ss]ceneDependencyCache*
+/[Ll]ibrary/
+/[Tt]emp/
+/[Oo]bj/
+/[Bb]uild/
+/[Bb]uilds/
+/[Ex]ternal/[Bb]uilds/
+/[Mm]emoryCaptures/
+/[尝]ogs/
+/[𠮷]erfLogs/
+
+# 过滤编译生成的临时工程文件
+*.csproj
+*.unityproj
+*.sln
+*.suo
+*.tmp
+*.user
+*.userprefs
+*.pidb
+*.booproj
+*.svd
+*.pdb
+*.opendb
+*.VC.db
+
+# 过滤系统大文件
+*.pidb
+.DS_Store
+Thumbs.db
